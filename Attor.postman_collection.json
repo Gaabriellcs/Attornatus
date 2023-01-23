@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "52c74f31-15d6-486d-8f9b-b09fffa64a86",
+		"name": "Attor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastro de Peesoa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nome\": \"Gabriel\",\r\n\"nascimento\" : \"25/03/2002\",\r\n\"endereco\" : {\r\n    \"logradouro\" : \"Qd 101 Bl o\",\r\n    \"cep\": \"72583400\",\r\n    \"numero\" : \"600\"\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Todas Pessoas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nome\": \"Gabriel\",\r\n\"nascimento\" : \"25/03/2002\",\r\n\"endereco\" : {\r\n    \"logradouro\" : \"Qd 101 Bl o\",\r\n    \"cep\": \"72583400\",\r\n    \"numero\" : \"600\"\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Usuarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
